@@ -1,0 +1,18 @@
+<div class="skills-container">
+    <h2 class="section-title">
+        <span class="text-gradient-secondary">My Skillset</span>
+        <svg class="gear-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path
+                d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+            <circle cx="12" cy="12" r="4" />
+        </svg>
+    </h2>
+
+    <div class="skills-grid">
+        <div class="skill-tag glass-pill" *ngFor="let skill of skills">
+            <span class="skill-icon" [innerHTML]="skill.icon"></span>
+            <span class="skill-name">{{ skill.name }}</span>
+        </div>
+    </div>
+</div>

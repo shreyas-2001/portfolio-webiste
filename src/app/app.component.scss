@@ -1,0 +1,14 @@
+.main-content {
+    padding-top: 8rem;
+    /* Space for the fixed navbar */
+    min-height: 100vh;
+}
+
+.view-section {
+    min-height: 80vh;
+    /* Minimum height for sections to ensure good scroll pacing */
+    padding: 4rem 0;
+    display: flex;
+    align-items: center;
+    /* Center content vertically within sections by default */
+}
