@@ -33,17 +33,17 @@ export class ProjectsComponent {
       imageUrl: 'https://placehold.co/600x400/0a0a0a/38bdf8?text=GrabIt+Store'
     },
     {
-      title: '🚀 Crypto Tracker Dashboard',
+      title: '🚀 Crypto Dashboard',
       description: 'A real-time cryptocurrency tracking application featuring live updating charts, market trends analysis, and user portfolio management.',
       features: [
         'Live data fetching from CoinGecko API',
         'Interactive financial charts',
         'Persistent dark mode and user settings'
       ],
-      techStack: ['Angular', 'Chart.js', 'REST API', 'Tailwind CSS'],
-      liveLink: '#',
-      githubLink: '#',
-      imageUrl: 'https://placehold.co/600x400/0a0a0a/c084fc?text=Crypto+Tracker'
+      techStack: ['Angular', 'Chart.js', 'CoinGecko REST API', 'SCSS'],
+      liveLink: 'https://shreyas-2001.github.io/Crypto-Dashboard/',
+      githubLink: 'https://shreyas-2001.github.io/Crypto-Dashboard/',
+      imageUrl: 'https://placehold.co/600x400/0a0a0a/c084fc?text=Crypto+Dashboard'
     },
     {
       title: '🚀 Food Delivery Web App',
