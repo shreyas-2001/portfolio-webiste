@@ -18,13 +18,10 @@ export class SkillsComponent {
     { name: 'CSS3', icon: '🎨' },
     { name: 'JavaScript', icon: '⚡' },
     { name: 'TypeScript', icon: '🦕' },
-    { name: 'React', icon: '⚛️' },
     { name: 'Angular', icon: '🅰️' },
     { name: 'Tailwind CSS', icon: '🌬️' },
     { name: 'Node.js', icon: '🟢' },
     { name: 'Git', icon: '📦' },
     { name: 'VS Code', icon: '💻' },
-    { name: 'Figma', icon: '🖋️' },
-    { name: 'Framer Motion', icon: '🎬' }
   ];
 }
